@@ -249,6 +249,11 @@ body { background-position: 50% 0px; }
 	#main div.content { float: none; }
 	#li-1, #li-6, #li-4 { display: none; }
 }
+
+@media all and (min-device-width: 320px) {
+img {width: 100px;}
+}
+
 @media screen and (max-width: 711px) {
 	#container { width: 640px; max-width: 640px; }
 	#promo.thin { height: 215px; position: relative; border-radius: 4px 4px 0px 0px; background: transparent url('main_bg-russia1-new6.jpg') no-repeat scroll 50% 0px; }
