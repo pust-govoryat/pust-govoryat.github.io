@@ -1,4 +1,4 @@
-/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* СЃС‚С‹СЂРёР» С‚Р°Р±Р»РёС‡РєСѓ - СЃРєР°Р¶Рё СЃСЋРґР° R260143890269 "СЃРїР°СЃРёР±Рѕ" */
 /* Footer fixed */
 .ftrsale {
 	display: block;
@@ -88,7 +88,7 @@
 }
 }
 /* Footer fixed END*/
-/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* СЃС‚С‹СЂРёР» С‚Р°Р±Р»РёС‡РєСѓ - СЃРєР°Р¶Рё СЃСЋРґР° R260143890269 "СЃРїР°СЃРёР±Рѕ" */
 /* Modal Mouseout */
 .screenLock {
     position: fixed;
@@ -157,7 +157,7 @@
 	margin:0 0 0 -391px;
 	border:3px solid #3e3e3e;
 }
-/*.ex-logo{width:426px;height:55px;margin:40px auto 0;background:url(../img/exitsprite2.png) 0 0 no-repeat;} */
+/*.ex-logo{width:426px;height:55px;margin:40px auto 0;background:url(../index_files/exitsprite2.png) 0 0 no-repeat;} */
 .ex-logo{
     color: #111111;
 	font-family: Arial,Helvetica,sans-serif;
@@ -245,7 +245,7 @@
 	font-weight: normal;
 	width: 550px;
 }
-.exitprod-img{
+.exitprod-index_files{
 	width:230px;
 	/*height:529px;*/
 	margin:15px 15px 0 15px;
@@ -271,7 +271,7 @@
 	padding-left: 10px;
 }
 .exit-form-text .subhead ul li {
-	background: transparent url("../img/bul.png") no-repeat scroll 0px 10px;
+	background: transparent url("../index_files/bul.png") no-repeat scroll 0px 10px;
 	margin-top: 10px;
 	padding-left: 30px;
 	padding-bottom: 10px;
@@ -279,18 +279,18 @@
 }
 .exit-row{width:318px;margin:0 15px 24px 0;position:relative;}
 .exit-row input{margin:0;padding:12px 6px 12px 40px;height:47px;width:270px;border:none;outline:none;}
-.exicon{height:47px;width:38px;top:0;left:0;position:absolute;background:url(../img/exitsprite.png) no-repeat;}
+.exicon{height:47px;width:38px;top:0;left:0;position:absolute;background:url(../index_files/exitsprite.png) no-repeat;}
 .exicon.exicon-name{background-position:-1267px 12px;}
 .exicon.exicon-phone{background-position:-1267px -59px;}
-.overlay{cursor:pointer;position: fixed;width: 100%;height: 100%;background:url(../img/overlay-bg.png);top: 0;left: 0;z-index: 9999;overflow: hidden;}
-.close-ex{height:52px;width:52px;cursor:pointer;position:absolute;top:10px;right:-26px;background:url(../img/close.png) no-repeat;}
-.send-exitform{display:block;cursor:pointer;height:54px;width:315px;margin:27px 0 0;border:none;outline:none; background: url(../img/btn1.png) no-repeat; font-size:28px; color:#FFF;margin-left:-23px;}
+.overlay{cursor:pointer;position: fixed;width: 100%;height: 100%;background:url(../index_files/overlay-bg.png);top: 0;left: 0;z-index: 9999;overflow: hidden;}
+.close-ex{height:52px;width:52px;cursor:pointer;position:absolute;top:10px;right:-26px;background:url(../index_files/close.png) no-repeat;}
+.send-exitform{display:block;cursor:pointer;height:54px;width:315px;margin:27px 0 0;border:none;outline:none; background: url(../index_files/btn1.png) no-repeat; font-size:28px; color:#FFF;margin-left:-23px;}
 .send-exitform:hover { color:#000; margin-left:-23px;}
 .exattent{font-size:14px;color:#fff;width:340px;margin:14px 0 0 -6px;}
 .exit-row input.error{border:none;}
 .clr{clear:both;}
 /* Modal Mouseout END */
-/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* СЃС‚С‹СЂРёР» С‚Р°Р±Р»РёС‡РєСѓ - СЃРєР°Р¶Рё СЃСЋРґР° R260143890269 "СЃРїР°СЃРёР±Рѕ" */
 /* RED BUTTON */
 .btn-order {
 height: 40px;
@@ -328,7 +328,7 @@ height: 60px;
 }
 }
 /* RED BUTTON */
-/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* СЃС‚С‹СЂРёР» С‚Р°Р±Р»РёС‡РєСѓ - СЃРєР°Р¶Рё СЃСЋРґР° R260143890269 "СЃРїР°СЃРёР±Рѕ" */
 /* RIGHT FIXED BLOCK */
 .content-right-recommend-container {
 	display: block;
@@ -361,7 +361,7 @@ height: 60px;
 	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
 	text-decoration: none;
 }
-.content-right-recommend-middle img {
+.content-right-recommend-middle index_files {
 	display: block;
 	margin: 7% auto;
 }
@@ -387,7 +387,7 @@ height: 60px;
 	color:white;
 }
 /* RIGHT FIXED BLOCK */
-/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* СЃС‚С‹СЂРёР» С‚Р°Р±Р»РёС‡РєСѓ - СЃРєР°Р¶Рё СЃСЋРґР° R260143890269 "СЃРїР°СЃРёР±Рѕ" */
 /* API BIG FORM */
 .form-bg-sec {
 	border: 3px dashed #169ed1;
@@ -444,7 +444,7 @@ height: 60px;
 }
 }
 /* API BIG FORM */
-/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* СЃС‚С‹СЂРёР» С‚Р°Р±Р»РёС‡РєСѓ - СЃРєР°Р¶Рё СЃСЋРґР° R260143890269 "СЃРїР°СЃРёР±Рѕ" */
 /* API SM FORM */
 .form-sm form input, 
 .form-sm form select,
