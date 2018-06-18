@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import "./style/index.css";
 
 export default class App extends Component {
@@ -33,7 +33,7 @@ export default class App extends Component {
   } 
 
   render() {
-    const link = 'http://shakesstream.com/cokn/sub1/sub2/sub3/sub4/';
+    const link = 'http://sekahspotok.com/danp/';
     return (
       <div className="wrapper">
         <header className="header">
