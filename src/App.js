@@ -9,10 +9,22 @@ export default class App extends Component {
       currentDate: '' 
     }
     this.timeClick = this.timeClick.bind(this);
+    this.link = 'http://sekahspotok.com/danp/';
   }
 
   componentDidMount(){
     this.timeClick();
+  }
+
+  componentWillMount(){
+    var params = window.location.search.substr(1);
+    // var params = window.location.search; // без урезания
+    this.link = this.link + params;
+  }
+
+  handlePopup = () => {
+    let popup = document.getElementById('modal-content');
+    popup.classList.add('open');
   }
 
   timeClick() {
@@ -33,7 +45,7 @@ export default class App extends Component {
   } 
 
   render() {
-    const link = 'http://sekahspotok.com/danp/';
+    const { link } = this;
     return (
       <div className="wrapper">
         <header className="header">
@@ -471,7 +483,7 @@ export default class App extends Component {
                     <img src="/images/сс2 (6).jpg" height="48" width="48" alt="" />
                   </div>
                   <div className="vk-comment-name">Елизавета Номик
-                    <span style={{fontSize: '12px', fontStyle: 'italic', color: '#bdbdbd'}}> (г. Мантуя) </span> .</div>
+                    <span style={{fontSize: '12px', fontStyle: 'italic', color: '#bdbdbd'}}> (г. Мантуя) </span></div>
                   <div className="vk-comment-text">
                     <p>Заказала</p>
                   </div>
@@ -511,7 +523,10 @@ export default class App extends Component {
             </div>
 
             <footer className="footer">
-              <p>© 1996-2018, Первый канал. Все права защищены.</p>
+              <p>
+                <span style={{display: 'block', cursor: 'pointer'}} onClick={this.handlePopup}>политика конфиденциальности</span> 
+                <span>© 1996-2018, Первый канал. Все права защищены.</span>
+              </p>
             </footer> 
           </div> 
         </div>       

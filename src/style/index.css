@@ -1388,6 +1388,7 @@ body.up {
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .udalykhnn_av3FDRJhB a {
@@ -1410,4 +1411,55 @@ body.up {
 
 .vk-avatar {
     max-width: 48px
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.modal.open {
+    display: block
+}
+
+.modal-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 2% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    z-index: 2
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.close:focus,
+.close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
 }
